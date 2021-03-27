@@ -1,4 +1,4 @@
-#conectaDB.py
+#File: conectaDB.py
 
 import sqlite3
 from sqlite3 import Error
