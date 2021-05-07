@@ -4,6 +4,7 @@ import sqlite3
 
 def conectar(db_path):
     conexao = None
+    
     try:
         if not os.path.exists(db_path):
             conexao = sqlite3.connect(db_path, timeout=20)
